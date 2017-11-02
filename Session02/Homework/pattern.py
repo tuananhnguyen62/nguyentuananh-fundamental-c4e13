@@ -4,3 +4,4 @@ print("This is your pattern:")
 for i in range(r):
     print(n * "x*")
     print()
+    

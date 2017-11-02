@@ -12,3 +12,4 @@ elif b < 30:
     print("Overweight")
 else:
     print("Obese")
+    
