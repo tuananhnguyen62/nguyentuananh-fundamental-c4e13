@@ -1,7 +1,10 @@
-n = int(input("Number of stars in row: "))
-r = int(input("Number of row: "))
+column = int(input("Number of stars in row: "))
+row = int(input("Number of row: "))
 print("This is your pattern:")
-for i in range(r):
-    print(n * "x*")
+for y in range(row):
+    for x in range(column):
+        if (x+y) % 2 ==0:
+            print("* ", end="")
+        else:
+            print("x ", end="")
     print()
-    
