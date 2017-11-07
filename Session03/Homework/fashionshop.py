@@ -41,4 +41,4 @@ while True:
                         print("Our items: ", end='')
                         print(*menu, sep=', ')
                         break
-        break
+            # break
